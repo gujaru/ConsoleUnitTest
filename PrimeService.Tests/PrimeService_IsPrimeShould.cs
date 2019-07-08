@@ -16,7 +16,7 @@ namespace Prime.UnitTests.Services
         [Test]
         public void ReturnFalseGivenValueOf1()
         {
-            var result = _primeService.IsPrime(333);
+            var result = _primeService.IsPrime(1);
 
             Assert.IsFalse(result, "1 should not be prime");
         }
